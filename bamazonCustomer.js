@@ -16,8 +16,17 @@ var connection = mysql.createConnection({
   database: "bamazon"
 });
 
-connection.connect(function(err) {
-  if (err) throw err;
-  console.log("connected as id " + connection.threadId + "\n");
-//   readProducts();
-});
+function start() {
+  //prints the items for sale and their details
+  connection.query('SELECT * FROM Products', function (err, res) {
+    if (err) throw err;
+
+    console.log('Welcome to Bamazon')
+
+    for (var i = 0; i < res.length; i++) {
+      console.log("ID: " + res[i].item_id + " | " + "Product: " + res[i].product_name + " | " + "Department: " + res[i].department_name + " | " + "Price: " + res[i].price + " | " + "QTY: " + res[i].stock_quantity);
+      console.log('--------------------------------------------------------------------------------------------------');
+    }
+  })
+};
+start();
