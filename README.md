@@ -8,8 +8,7 @@ bamazonCustomer.js
 When the app is lauched, the user get a list of the product on the inventory and is asked to select a product for purchase by entering the ID number of the thing they want to buy.  Then, they are asked how many of the item they want.  If there is enough of what they want in the inventory, the item is ordered and the total of their purchase is displayed.  If there IS NOT enought of what they want, they get a message letting them them we don't have enough of the product and that they need to change their order.  
 
 To see a demo of the app, just open up the bamazondemo.webm document or check out the video with the link below.
-https://drive.google.com/file/d/1-mAlRVdLHs-Dc1uP4Zib2jabyAZpRhrA/view?usp=sharing
- 
+https://drive.google.com/file/d/1rU4w8CuS3fsjqSZv2dvZ1azPgGYWwL0U/view?usp=sharing 
 
 
 Thanks 
