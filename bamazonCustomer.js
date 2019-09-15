@@ -75,7 +75,7 @@ function promptUserPurchase() {
 						connection.end();
 					})
 				} else {
-					console.log('No us bueno, we don;t have enough of what you want :(');
+					console.log('No us bueno, we do not have enough of what you want :(');
 					console.log('Please modify your order.');
 					console.log("\n---------------------------------------------------------------------\n");
 
